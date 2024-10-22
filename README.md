@@ -1,40 +1,49 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# Blog @codefrite
 
-## Getting Started
+I always wanted to talk about my everyday tech projects, music, write a few words in japanese, share my thoughts on the latest tech trends, and more. Like many of us, I have been wandering in the tutorial rabbit hole, learning a bit about various subjects like AI, emulator programming, lexer/tokenizer/compiler programming, blockchain development, finding a clever way to solve a programming problem, and so on ... I have always tried to use these newly acquired skills and knowledges in my everyday job. Along the way, I learned a lot and also forgot the details.
 
-First, run the development server:
+I finally reached a point where I think that I've learned enough a various subjects to start building things with these puzzle pieces. That's why I am gonna take the time needed to write about my projects and share the technical details with you hoping that these journey will feel less lonely and hopefully informative to you.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+# Requirements
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+In order to get things done, I'll begin small with basic needs and refine them as I go. I'll try to keep in mind that the initial purpose of this blog is to present myself, present small technical findings and talk about my current projects in a blog format, so mainly with code, text and images. Here is the core list of features I'll be needing:
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## Must Have
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+- A blog that allows to quickly add posts with minimal formatting: no DB for storing the posts, no content delivery network connection for media content but simple links to Youtube videos, no user authentication and personnalized experience, ...
+- Hosted on github pages: therefore, no server side processing, no backend, ...
+- A simple way to write posts
+- A simple way to share code snippets
+- A visual way to present my projects and redirect to their respective github repositories and live demos
+- Fast loading using server side pre-rendering
+- Possibility to see code in action either by linking to a codepen or when possible by embedding the code directly in the post
+- Responsive design for mobile and desktop navigation
+- SVG homemade animations for a more vivid experience and to have fun
+- Document the process in blog posts that I'll integrate later in the blog
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+## Nice to Have
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- A timeline component to summarize my curriculum and projects I've worked on
+- A way to regroup posts using tags like `coding`, `testing`, `gameboy emulator`, `blockchain`, `music`, `japanese`, ...
 
-## Learn More
+# Tech stack
 
-To learn more about Next.js, take a look at the following resources:
+- Next.js for server side pre-rendering, routing and code splitting
+- Markdown for writing posts
+- MDX for rendering markdown within React components
+- Plain CSS for styling and responsive design
+- Github pages for hosting
+- Storybook for React components unit testing and parameterization
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+# Development Approach
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+I am excited to start writing blog posts. Therefore, when it comes to the development approach, I'll be following a straight forward path making sure that all the required pieces are correctly set up and working together. The critical path I'll be following is:
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+- Step 1: Project setup and hosting on GitHub Pages
+- Step 2: Blog wireframes (layout), responsive design and branding
+- Step 3: Rendering posts with Markdown and MDX integration logic
+- Step 4: Listing posts
+- Step 5: Code snippets sharing
+- Step 6: My projects components
+- Step 7: About Me page
+- Step 8: Landing page composition and blog routing
