@@ -79,6 +79,8 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./out
+      - name: Copy public/* assets to out
+        run: cp -r public/* .
 
   # Deployment job
   deploy:
