@@ -65,3 +65,11 @@ I can now init my git repository, add all the files, link my local to my remote 
 ```
 
 Now it is time to deploy the project on Github Pages using the default Next.js GitHub Action to build, deploy and host the application:
+
+![alt text](github-pages-config.png)
+
+We can now wait for github to build and deploy the project:
+
+![alt text](github-page-deployment-in-progress.png)
+
+Once done, the page is available at `github-page-deployment-in-progress.png`
