@@ -40,7 +40,7 @@ In order to get things done, I'll begin small with basic needs and refine them a
 I am excited to start writing blog posts. Therefore, when it comes to the development approach, I'll be following a straight forward path making sure that all the required pieces are correctly set up and working together. The critical path I'll be following is:
 
 - [Step 1: Project setup and hosting on GitHub Pages](docs/Step%201/Project%20setup%20and%20hosting%20on%20GitHub%20Pages.md)
-- Step 2: Rendering posts with Markdown and MDX integration logic
+- [Step 2: Rendering posts with Markdown and MDX integration logic](docs/Step%202/Rendering%20posts%20with%20Markdown%20and%20MDX%20integration%20logic.md)
 - Step 3: Listing posts and navigating to a post
 - Step 4: Blog wireframes (layout), responsive design and branding
 - Step 5: Code snippets sharing
